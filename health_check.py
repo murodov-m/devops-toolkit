@@ -1,4 +1,5 @@
-import psutil, datetime
+import datetime
+import psutil
 
 def check_system():
 	print(f"[{datetime.datetime.now()}] System Health Report")
